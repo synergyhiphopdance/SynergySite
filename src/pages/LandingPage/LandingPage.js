@@ -1,5 +1,10 @@
+import {NavBar} from "../NavBar"
+
+
 export function LandingPage() {
     return(
-        <div></div>
+        <div>
+            <NavBar/>
+      </div>
     );
 }
