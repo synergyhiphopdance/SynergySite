@@ -1,14 +1,17 @@
 import './App.css';
+import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 
+import {LandingPage} from "./pages/LandingPage"
+
 function App() {
-  console.log("here actually")
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>hey alicia!</p>
-      </header>
-    </div>
+    <BrowserRouter basename='/syn-site/'>
+      <Routes>
+        <Route path='' element={<LandingPage/>}/>
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
