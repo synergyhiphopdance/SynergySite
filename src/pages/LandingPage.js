@@ -16,7 +16,7 @@ export const LandingPage = () => {
         <img src = {LandingPicture} className='Photo' ></img>
       </div>
       <div className='SecondSection'>
-        Here
+        
       </div>
     </div>
   );
