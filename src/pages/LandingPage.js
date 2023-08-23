@@ -3,7 +3,7 @@ import '../styles/LandingPage.css'
 
 export const LandingPage = () => {
     return (
-      <div>
+      <div className='Landing'>
         <h1>Landing
         </h1>
       </div>

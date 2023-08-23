@@ -12,7 +12,8 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className='leftSide'>
-                <img src={Logo} />
+            <Link to ="/"> <img src={Logo}></img></Link>
+                
             </div>
             <div className='rightSide'>
                 <div className='nav-item'>

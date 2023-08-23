@@ -9,7 +9,7 @@
 .navbar .leftSide {
   display: flex;
   align-items: center;
-  padding-left: 60px;
+  padding-left: 40px;
   padding-right: 80px;
   color: white;
   
@@ -90,6 +90,7 @@
 
 .nav-item:hover {
   border-bottom: 4px solid #fff;
+  padding-bottom: 8px;
   transition: all 0.2s ease-out;
 }
 
