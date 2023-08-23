@@ -1,0 +1,47 @@
+.BackgroundImage{
+    background: url('../assets/GroupPic.png');
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    filter: brightness(0.5);
+    color:black;
+}
+   
+
+.LandingPageLayout{
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(to right, rgb(0, 0, 0), transparent);
+    display: flex;
+    align-items: middle;
+}
+
+.LandingText{
+    padding-top: 50px;
+    padding-left: 20px;
+    text-align: Center;
+    font-size: xx-large;
+    color: White;
+    margin-left: 8%;
+}
+
+.Photo{
+    margin-top: 2%;
+    margin-left: 8%;
+    size: cover;
+    height: 60%;
+    width: 40%;
+    filter: drop-shadow(10px 10px 10px black);
+    border: 2px solid white;
+}
+
+.SecondSection{
+    height:200px;
+    color: black;
+    font-size: larger;
+}
