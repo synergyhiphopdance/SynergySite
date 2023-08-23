@@ -1,46 +1,13 @@
+import '../styles/NavBar.css'
+
 import React, { useState, useEffect } from 'react';
 import Logo from '../assets/whitelogo.png'
 import { Link } from 'react-router-dom'
 import '../styles/NavBar.css'
 
-function Dropdown( props ) {
 
-    const [ display, setDisplay ] = useState( 'none' )
-
-    function handleClick() {
-
-        if ( display == 'none' ) {
-
-            setDisplay( 'block' )
-
-        } else {
-
-            setDisplay( 'none' )
-
-        }
-
-    }
-}
 function Navbar() {
-    const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
-
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
-
-    const showButton = () => {
-        if (window.innerWidth <= 960) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    };
-
-    useEffect(() => {
-        showButton();
-    }, []);
-
-    window.addEventListener('resize', showButton);
+ 
 
     return (
         <div className="navbar">
@@ -49,7 +16,10 @@ function Navbar() {
             </div>
             <div className='rightSide'>
                 <div className='nav-item'>
-                    <Link to="/Auditions">Auditions</Link>
+                    <Link to="/"> Home </Link>
+                </div>
+                <div className='nav-item'>
+                    <Link to="/Auditions">2023-2024 Auditions</Link>
                 </div>
                 <div className='nav-item'>
                     <Link to="/Performances">Performances</Link>

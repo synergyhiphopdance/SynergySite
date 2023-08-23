@@ -1,11 +1,11 @@
 import React from 'react'
+import '../styles/LandingPage.css'
 
-function LandingPage() {
-  return (
-    <div>
-      Hello World
-    </div>
-  )
-}
-
-export default LandingPage
+export const LandingPage = () => {
+    return (
+      <div>
+        <h1>Landing
+        </h1>
+      </div>
+    );
+  };

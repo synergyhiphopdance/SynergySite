@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-import LandingPage from "./pages/LandingPage";
-import { Performances } from "./pages/Performances";
+import  { LandingPage } from "./pages/LandingPage";
+import  { Performances } from "./pages/Performances";
 import { Team } from "./pages/Team";
 import { Auditions } from "./pages/Auditions";
 import Navbar from './components/Navbar';
@@ -13,7 +13,10 @@ function App() {
     <Router>
     <Navbar />
     <Routes>
-      <Route path = "/" exact component = {LandingPage}/>
+      <Route path = "/" element = {<LandingPage/>}/>
+      <Route path = "/Performances" element = {< Performances/>}/>
+      <Route path = "/Team" element = {<Team/>}/>
+      <Route path = "/Auditions" element = {<Auditions/>}/>
     </Routes>
     </Router>
    // <BrowserRouter>
