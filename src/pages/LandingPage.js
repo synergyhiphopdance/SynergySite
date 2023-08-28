@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/LandingPage.css'
-import GroupPic from '../assets/GroupPic.png'
 import LandingPicture from '../assets/LandingPicture.jpg'
 
 export const LandingPage = () => {
@@ -10,7 +9,7 @@ export const LandingPage = () => {
       <div className='LandingPageLayout'>
 
         <div className='LandingText'>
-          Welcome To <br></br>Synergy Hip Hop Dance Company<br></br>Bio
+          Welcome To <br></br>Synergy Hip Hop Dance Company<br></br><br></br>Promoting Unity Among Students <br></br>of Diverse Cultural Backgrounds through Hip Hop Dance <br></br> EST. 2004
         </div>
 
         <img src = {LandingPicture} className='Photo' ></img>

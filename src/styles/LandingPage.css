@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
 .BackgroundImage{
     background: url('../assets/GroupPic.png');
     position: absolute;
@@ -28,6 +30,7 @@
     font-size: xx-large;
     color: White;
     margin-left: 8%;
+    font-family: 'Black Ops One', cursive;
 }
 
 .Photo{
@@ -74,7 +77,6 @@
     }
 
     .LandingText{
-        margin-left: -5%;
         padding-top: 50px;
         text-align: Center;
         font-size: x-large;

@@ -1,0 +1,23 @@
+.LandingText{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to Bottom, rgb(250, 121, 121), transparent);
+    width:100%;
+    margin-left: -1%;
+    height:78vh;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+
+@media (max-width: 600px) {
+    .LandingText{
+        font-family: 'Courier New', Courier, monospace;
+        background: linear-gradient(to Bottom, rgb(250, 121, 121), transparent);
+        width:100%;
+        margin-left: -1%;
+        height:78vh;
+        font-weight: bold;
+        font-size:larger;
+        text-align: left;
+    }
+}
