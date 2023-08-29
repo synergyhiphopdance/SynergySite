@@ -29,18 +29,19 @@
     text-align: Center;
     font-size: xx-large;
     color: White;
-    margin-left: 8%;
+    
     font-family: 'Black Ops One', cursive;
 }
 
 .Photo{
-    margin-top: 2%;
-    margin-left: 8%;
+    
+    margin-left: 6%;
     size: cover;
     height: 60%;
     width: 40%;
     filter: drop-shadow(10px 10px 10px black);
     border: 2px solid white;
+    margin-top: 2%;
 }
 
 .SecondSection{
@@ -59,7 +60,7 @@
         top: 0px;
         left: 0;
         width: 100%;
-        height: 100vh;
+        height: 110vh;
         background-size: cover;
         background-position: center;
         z-index: -2;
@@ -70,10 +71,11 @@
     .LandingPageLayout{
         width: 100%;
         height: 85vh;
-        background: linear-gradient(to right, rgb(0, 0, 0), transparent);
         display: inline;
         align-items: middle;
         align-content: center;
+        background: linear-gradient(to right, rgb(0, 0, 0), transparent);
+
     }
 
     .LandingText{
@@ -81,15 +83,16 @@
         text-align: Center;
         font-size: x-large;
         color: White;
+        margin-left: -10%;
     }
     .Photo{
-        margin-top: 30px;
         size: cover;
         height: 80%;
         width: 80%;
         filter: drop-shadow(10px 10px 10px black);
         border: 2px solid white;
         align-self:center;
+        margin-top: 10%;
     }
 
     .SecondSection{
