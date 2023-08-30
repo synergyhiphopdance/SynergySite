@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&display=swap');
+
+.FooterImage {
+    width: 90px;
+  height: 90px;
+  
+}
+.Footer{
+    background-color: black;
+    height: 120px;
+    display: inline-flex;
+    width: 100%;
+    margin-top:0%;
+}
+.FooterFont{
+
+    color:white;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size:small;
+    line-height: 150%;
+    margin-top: 0%;
+    font-family: 'Lobster', cursive;
+}
+.Names{
+    color:white;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size:small;
+    line-height: 150%;
+    margin-top: 0%;
+    font-family: 'Lobster', cursive;
+}
+@media (max-width: 600px) {
+    .Footer{
+        margin-top: 5%;
+        background-color: black;
+        height: 120px;
+        display: inline-flex;
+        width: 100%;
+    }
+    .FooterImage {
+        width: 90px;
+      height: 90px;
+      margin-left: 3%;
+      
+    }
+    .FooterFont{
+        color:white;
+        margin-top: 1%;
+        margin-left: 10%;
+        font-size:small;
+        line-height: 150%;
+        margin-top: 0%;
+        font-family: 'Lobster', cursive;
+        text-align: center;
+        margin-left: 10%;
+    }
+    .Names{
+        color:white;
+        margin-top: 1%;
+        margin-left: 2%;
+        font-size:1px;
+        line-height: 150%;
+        margin-top: 0%;
+        font-family: 'Lobster', cursive;
+    }
+}

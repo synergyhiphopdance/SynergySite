@@ -6,7 +6,7 @@
     top: 0px;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
     background-position: center;
     z-index: -2;
@@ -60,7 +60,7 @@
         top: 0px;
         left: 0;
         width: 100%;
-        height: 110vh;
+        height: 117vh;
         background-size: cover;
         background-position: center;
         z-index: -2;
@@ -93,6 +93,8 @@
         border: 2px solid white;
         align-self:center;
         margin-top: 10%;
+        margin-left: 7%;
+        margin-bottom: 10%;
     }
 
     .SecondSection{

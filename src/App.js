@@ -6,11 +6,13 @@ import  { Performances } from "./pages/Performances";
 import { Team } from "./pages/Team";
 import { Auditions } from "./pages/Auditions";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
 
   return (
-    <Router>
+    <div>
+      <Router>
     <Navbar />
     <Routes>
       <Route path = "/" element = {<LandingPage/>}/>
@@ -19,6 +21,10 @@ function App() {
       <Route path = "/Auditions" element = {<Auditions/>}/>
     </Routes>
     </Router>
+    <Footer />
+    </div>
+    
+    
    // <BrowserRouter>
    //   <Routes>
    //     <Route path='/syn-site' element={<LandingPage/>}/>
