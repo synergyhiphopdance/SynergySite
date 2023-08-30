@@ -9,7 +9,8 @@ export const Auditions = () => {
         <div className='BackgroundImage2'></div>
 
         <div className='AuditionText'>
-          Synergy's Auditions 2023-2024<br></br>Located at O'Connel House<br></br>September 3rd @ 11am
+          Synergy's Auditions 2023-2024<br></br>Located at <a href="https://goo.gl/maps/nBNK26yM94k9KHMS6"
+                        target="_blank">O'Connell House</a><br></br>September 3rd @ 11am
           <br></br>
           <br></br>
           No Dance Experience is Required, <br></br>Just Bring Yourself and Some Water!
