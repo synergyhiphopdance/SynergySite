@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+.PerformancePage{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), purple);
+    height: 99vh;
+    width: 100%;
+    margin-top: -3%;
+}
+
+.VideoBox{
+    text-align: center;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    font-size: xx-large;
+}
+
+.Video{
+    height: 500px;
+}
